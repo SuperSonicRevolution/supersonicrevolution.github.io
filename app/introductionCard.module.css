@@ -1,0 +1,100 @@
+.card {
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardAvatar {
+    width: 100%;
+    padding: 15px;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+}
+
+.cardAvatar h1 {
+    font-size: xx-large;
+
+    text-shadow: 
+        -2px -2px 0 white, 
+        2px -2px 0 white,
+        -2px 2px 0 white, 
+        2px 2px 0 white;
+}
+
+.cardAvatar h2 {
+    font-size: medium;
+
+    text-shadow: 
+        -1px -1px 0 white, 
+        1px -1px 0 white,
+        -1px 1px 0 white, 
+        1px 1px 0 white;
+}
+
+.cardCommunity {
+    padding: 10px;
+}
+
+.community_youtube {
+    filter: invert(12%) sepia(93%) saturate(6660%) hue-rotate(4deg) brightness(105%) contrast(116%);
+}
+
+.community_twitch {
+    filter: invert(18%) sepia(82%) saturate(4093%) hue-rotate(273deg) brightness(95%) contrast(102%);
+}
+
+.cardCommunity a:hover img, .cardCommunity a:active img{
+    filter: none;
+}
+
+.cardTitle {
+    padding: 10px;
+}
+
+.cardIntroduction {
+    padding: 3px 20px 20px 20px;
+    line-height: 1.5;
+    text-indent: 2rem;
+}
+
+.cardListItem {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+
+    margin: 0 20px;
+    border: 2px solid rgb(43, 25, 158);
+}
+
+.cardListItem:first-child {
+    border-bottom: 0;
+}
+
+.cardListItem:not(:last-child):not(:first-child) {
+    border-bottom: 0;
+}
+
+.cardListItem > *{
+    padding: 5px;
+}
+
+.cardListItem > *:first-child {
+    background-color: rgb(43, 25, 158);
+    color: white;
+    font-size: small;
+}
+
+.cardListItem ul {
+    margin-left: 18px;
+    font-size: 11pt;
+}
