@@ -55,7 +55,7 @@ export default function IntroductionCard({props}) {
                 <div><h3>活動實況紀錄</h3></div>
                 <div><ul>{
                     props.joinedStreamingHistory.map(history => (
-                        <li key={history.name}>
+                        <li key={history.name} className={styles[`cardList${history.name.slice(0, 4)}`]}>
                             <a href={history.link} target="_blank">
                                 {history.name}
                             </a>

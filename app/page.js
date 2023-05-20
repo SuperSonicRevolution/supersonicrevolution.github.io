@@ -8,7 +8,7 @@ export default async function Home() {
   return (
     <main className={styles.main}>
       <header className={styles.title}>
-        <img src="/images/ssr_logo.png" alt="Super Sonic Revolution" width={500} height={207.64}/>
+        <img src="/images/ssr_logo.png" alt="Super Sonic Revolution"/>
         <h1>Super Sonic Revolution 歷年跑者資料庫</h1>
       </header>
       <section className={styles.bodySection}>

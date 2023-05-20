@@ -1,11 +1,18 @@
 .card {
     width: 400px;
     margin: 50px auto;
+    padding-bottom: 20px;
     background-color: white;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 100vw;
+    }
 }
 
 .cardAvatar {
@@ -98,4 +105,22 @@
 .cardListItem ul {
     margin-left: 18px;
     font-size: 11pt;
+}
+
+.cardList2020 a{
+    color: rgb(71, 129, 230);
+}
+
+.cardList2021 a{
+    color: rgb(105, 67, 202)
+}
+
+.cardList2022 a{
+    color: rgb(245, 64, 64);
+}
+
+.cardList2020 a:hover, .cardList2020 a:active,
+.cardList2021 a:hover, .cardList2021 a:active,
+.cardList2022 a:hover, .cardList2022 a:active {
+    color: black;
 }
