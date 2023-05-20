@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import styles from './introductionCard.module.css';
 
 export default function IntroductionCard({props}) {
@@ -20,7 +19,7 @@ export default function IntroductionCard({props}) {
         {
             Object.keys(props.links).map(community => (
                 <a href={props.links[community]} target="_blank" key={community}>
-                    <Image src={`/images/community_logo/${community}.svg`} 
+                    <img src={`/images/community_logo/${community}.svg`} 
                         alt={community} 
                         width={50} 
                         height={50}
