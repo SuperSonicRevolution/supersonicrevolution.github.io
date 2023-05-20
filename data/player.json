@@ -1,0 +1,109 @@
+[
+    {
+        "name": "Append",
+        "avatar": "images/Avatar001.png",
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCgjRD4CezViF9yvasbTnvow",
+            "twitch": "https://www.twitch.tv/append"
+        },
+        "title": "資深遊戲研究者",
+        "introduction": "2009年開始在Justin.tv開台，2017年成為Twitch合作夥伴。平時多玩洛克人全系列/Sonic3K/馬利歐64/BOTW。缺乏體術，傾向於壓低通關過程需要的體術門檻，因此平時常做各種稀奇古怪的研究，例如製作了RockmanX4 BOOST。除了遊戲本身，也喜歡研究各種實況相關的技術。",
+        "goodAtSonicGames": ["幾乎只有玩 Sonic 3 & Knuckles"],
+        "goodAtOtherGames": ["洛克人全系列", "馬利歐64", "新仙劍奇俠傳"],
+        "joinedStreamingHistory": [
+            {
+                "name": "2020_D09_Sonic the Hedgehog 3 & Knuckles",
+                "link": "https://www.twitch.tv/videos/645813705?collection=28K47G4AFhZiHQ"
+            },
+            {
+                "name": "2021_D01_Sonic the Hedgehog 3 & Knuckles",
+                "link": "https://www.twitch.tv/videos/1042344609?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+            },
+            {
+                "name": "2022_D12_Sonic the Hedgehog 3 & Knuckles",
+                "link": "https://www.twitch.tv/videos/1502285231?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+            }
+        ],
+        "classicVideoSections": [
+            {
+                "name": "The Barrel of Doom",
+                "link": "https://www.twitch.tv/supersonicrevolution/clip/DoubtfulObeseMochaDoggo"
+            }
+        ]
+    },
+    {
+        "name": "SonicBoss (SonicBoss46)",
+        "avatar": "images/Avatar002.png",
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCgjRD4CezViF9yvasbTnvow",
+            "twitch": "https://www.twitch.tv/append"
+        },
+        "title": "休閒玩家 挑戰型/技術型玩家 粉絲型玩家",
+        "introduction": "大家好，我是SonicBoss,一位正常玩遊戲的正直型玩家。從粉絲遊戲開始實況，現在是以實況格鬥跟多數單機遊戲、粉絲遊戲為主，接觸實況有九年，有70%是實況Sonic遊戲居多。偏向實況Sonic Adventure DX技術性跑法以及模組遊玩教學。目前居住在YouTube平台上實況。有參加比賽經驗，參加過Beepro Cup,國外Dragon ball fighters World tour LCQ等大型賽事。歡迎各位來我的實況台跟我聊天～",
+        "goodAtSonicGames": [
+            "Sonic Adventure DX 技術性跑法",
+            "在第三屆馬拉松在時間內跑完Sonic Unleashed主線"
+        ],
+        "goodAtOtherGames": [
+            "卡比之星", 
+            "七龍珠Fighters Z"
+        ],
+        "joinedStreamingHistory": [
+            {
+                "name": "2020_D14_Sonic Adventure DX: Director's Cut",
+                "link": "https://www.twitch.tv/videos/650688019?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+            },
+            {
+                "name": "2020_D20_Sonic Heroes",
+                "link": "https://www.twitch.tv/videos/656462284?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+            },
+            {
+                "name": "2021_D05_Shadow the hedgehog Part 1",
+                "link": "https://www.twitch.tv/videos/1047796487?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+            },
+            {
+                "name": "2021_D06_Shadow the hedgehog Part 2",
+                "link": "https://www.twitch.tv/videos/1047797919?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+            },
+            {
+                "name": "2021_D12_Sonic Adventure DX: Director's Cut",
+                "link": "https://www.twitch.tv/videos/1054029925?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+            },
+            {
+                "name": "2021_D13_Sonic Unleashed",
+                "link": "https://www.twitch.tv/videos/1055540640?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+            },
+            {
+                "name": "2021_D18_Sonic Adventure 2 Battle",
+                "link": "https://www.twitch.tv/videos/1060970785?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+            },
+            {
+                "name": "2021_D30_Sonic R / Sonic Omens",
+                "link": "https://www.twitch.tv/videos/1073466017?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+            },
+            {
+                "name": "2022_D01_Sonic Adventure DX: Director's Cut",
+                "link": "https://www.twitch.tv/videos/1314932837?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+            },
+            {
+                "name": "2022_D02_Sonic Unleashed",
+                "link": "https://www.twitch.tv/videos/1494234481?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+            },
+            {
+                "name": "2022_D08_Sonic Adventure 2 Battle Hero+Last Story",
+                "link": "https://www.twitch.tv/videos/1502254724?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+            },
+            {
+                "name": "2022_D16_Sonic P-06 v4.6",
+                "link": "https://www.twitch.tv/videos/1508820615?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+            }
+        ],
+        "classicVideoSections": [
+            {
+                "name": "蛋頭穿著音速小子服裝!!???",
+                "link": "https://youtu.be/x78dvC4j4-I"
+            }
+        ],
+        "message": "按讚、訂閱、開啟小鈴鐺。我的頻道會有不少好玩的模組遊戲影片，推"
+    }
+]
