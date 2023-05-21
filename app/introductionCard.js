@@ -2,7 +2,7 @@ import styles from './introductionCard.module.css';
 
 export default function IntroductionCard({props}) {
     const avatarBackground = {
-        "background-image": `url(${props.avatar})`
+        "backgroundImage": `url(${props.avatar})`
     };
 
     return <section className={styles.card}>
