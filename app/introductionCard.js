@@ -4,9 +4,6 @@ export default function IntroductionCard({props}) {
     const avatarBackground = {
         "background-image": `url(${props.avatar})`
     };
-    const messages = props.message
-        ? [props.message]
-        : [];
 
     return <section className={styles.card}>
         <div className={styles.cardAvatar} style={avatarBackground}>
@@ -28,7 +25,7 @@ export default function IntroductionCard({props}) {
         }
         </div>
         <div className={styles.cardIntroduction}>
-            {props.introduction}
+            {props.introduction.split("\n").map((paragraph, index) => (<p key={index}>{paragraph}</p>))}
         </div>
         <div>
             <div className={styles.cardListItem}>
@@ -75,11 +72,10 @@ export default function IntroductionCard({props}) {
                     ))
                 }</ul></div>
             </div>
-            {(messages.map(message => (
-                <div className={styles.cardListItem} key="message">
-                    <div><h3>本人留言</h3></div>
-                    <div>{message}</div>
-                </div>)))}
+            {(<div className={styles.cardListItem} key="message">
+                <div><h3>本人留言</h3></div>
+                <div>{props.message.split("\n").map((paragraph, index) => (<p key={index}>{paragraph}</p>))}</div>
+            </div>)}
         </div>
     </section>;
 }
