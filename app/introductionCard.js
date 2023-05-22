@@ -17,10 +17,8 @@ export default function IntroductionCard({props}) {
             Object.keys(props.links).map(community => (
                 <a href={props.links[community]} target="_blank" key={community}>
                     <img src={`/images/community_logo/${community}.svg`} 
-                        alt={community} 
-                        width={50} 
-                        height={50}
-                        className={styles[`community_${community}`]} />
+                        alt={community}
+                        className={styles[`community_${community}`] + " " + styles.communityItems} />
                 </a>))
         }
         </div>

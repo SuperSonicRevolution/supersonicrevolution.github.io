@@ -31,28 +31,30 @@
 }
 
 .cardAvatar h1 {
-    font-size: xx-large;
+    font-size: x-large;
 
     text-shadow: 
-        -2px -2px 0 white, 
-        2px -2px 0 white,
-        -2px 2px 0 white, 
-        2px 2px 0 white;
+        -2px -2px 10px white, 
+        2px -2px 10px white,
+        -2px 2px 10px white, 
+        2px 2px 10px white;
 }
 
 .cardAvatar h2 {
     font-size: medium;
 
     text-shadow: 
-        -1px -1px 0 white, 
-        1px -1px 0 white,
-        -1px 1px 0 white, 
-        1px 1px 0 white;
+        -2px -2px 10px white, 
+        2px -2px 10px white,
+        -2px 2px 10px white, 
+        2px 2px 10px white;
 }
 
 .cardCommunity {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
 }
 
@@ -64,12 +66,18 @@
     filter: invert(18%) sepia(82%) saturate(4093%) hue-rotate(273deg) brightness(95%) contrast(102%);
 }
 
+.communityItems {
+    width: 50px;
+    height: 50px;
+}
+
 .cardCommunity a:hover img, .cardCommunity a:active img{
     filter: none;
 }
 
 .cardTitle {
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 .cardIntroduction {
