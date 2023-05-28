@@ -431,5 +431,21 @@
             }
         ],
         "message": ""
+    },
+    {
+        "name": "yakumo_ken 八雲劍",
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UClA5YX0D1ejpeNh-oFcrXnw"
+        },
+        "title": "休閒玩家 Vtuber 粉絲型玩家",
+        "introduction": "Vtuber生涯剛邁入第二年，主要以恐怖遊戲與少量懷舊遊戲為主，喜歡老遊戲但是不常實況。",
+        "goodAtSonicGames": [
+            "都談不上很擅長，比較有自信的應該是白色世代，也就是正常遊玩而已。",
+            "比較熟悉的應該是SA1、SA2、Sonic3&K，非常喜歡SonicCD，但是玩得很爛。"
+        ],
+        "goodAtOtherGames": [],
+        "joinedStreamingHistory": [],
+        "classicVideoSections": [],
+        "message": ""
     }
 ]

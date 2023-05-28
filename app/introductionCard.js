@@ -1,9 +1,9 @@
 import styles from './introductionCard.module.css';
 
 export default function IntroductionCard({props}) {
-    const avatarBackground = {
-        "backgroundImage": `url(${props.avatar})`
-    };
+    const avatarBackground = props.avatar 
+        ? {"backgroundImage": `url(${props.avatar})`}
+        : {"aspectRatio": "auto"};
 
     return <section className={styles.card}>
         <div className={styles.cardAvatar} style={avatarBackground}>
