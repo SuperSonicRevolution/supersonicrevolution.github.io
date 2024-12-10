@@ -78,6 +78,12 @@
                     >
                         <h4>{{event.title}}</h4>
                         <p>{{event.content}}</p>
+                        <div class="vod">
+                            <a :href="event.links.vod">
+                                <img src="assets/images/community_logo/twitch.svg" class="icon purple" >
+                                <span> {{event.year}}年活動實況紀錄 >></span>
+                            </a>
+                        </div>
                         <div class="eventList" v-if="event.eventList.length == 1">
                             <a :href="'assets/'+event.eventList[0]" target="_blank">
                                 <img src="bootstrap/css/bootstrap-icons/calendar2-week-fill.svg" class="icon green"><span >{{event.year}}年節目表</span>
@@ -87,7 +93,7 @@
                             <img src="bootstrap/css/bootstrap-icons/calendar2-week-fill.svg" class="icon green"><span>{{event.year}}年節目表</span>
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide" v-for="listImg in event.eventList">
-                                    <a :href="'assets/'+listImg" target="_blank"><img :src="'assets/'+listImg" style="max-width: 480px;"></a>
+                                    <a :href="'assets/'+listImg" target="_blank"><img :src="'assets/'+listImg"></a>
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
@@ -95,15 +101,10 @@
                         <div class="eventList" v-else>
                             <span >尚未準備好</span>
                         </div>
-                        <div class="vod">
-                            <a :href="event.links.vod">
-                                <img src="assets/images/community_logo/twitch.svg" class="icon purple" >
-                                <span> {{event.year}}年活動實況紀錄 >></span>
-                            </a>
-                        </div>
+                        
                         <div class="eventImage" v-if="event.links.pv">
-                            <img src="assets/images/community_logo/youtube.svg" class="icon red" style="margin: .2em 0 .2em 1em">
-                            <a :href="event.links.pv" ><span> {{event.year}}年活動PV </span>
+                            
+                            <a :href="event.links.pv" ><img src="assets/images/community_logo/youtube.svg" class="icon red" style="margin: .2em 0 .2em 1em"><span> {{event.year}}年活動PV </span>
                                 <img :src="'assets/'+event.pv_image" class="pv">
                             </a>
                         </div>
