@@ -1,30 +1,72 @@
 [
     {
         "id":0,
-        "title": "2021屆PV",
-        "content": "",
-        "links": "https://www.youtube.com/watch?v=g8GyX1bkvC4",
-        "image": "images/PV/2021.jpg"
+        "year":"2020",
+        "title": "第一屆 Super Sonic Revolution",
+        "content": "由於號召及籌備只在短短一個月內，所以沒有精美的PV預告，\n但很難得的湊齊了九人電視牆，沒發生太多意外並成功落幕本次活動。",
+        "links": {
+            "pv": "",
+            "vod": "https://www.twitch.tv/collections/28K47G4AFhZiHQ?filter=collections"
+        },
+        "eventList":["images/eventList/2020.png"],
+        "pv_image": "images/PV/2020.png"
     },
     {
         "id":1,
-        "title": "2022屆PV",
-        "content": "",
-        "links": "https://www.youtube.com/watch?v=qseDynj_Zi8",
-        "image": "images/PV/2022.jpg"
+        "year":"2021",
+        "title": "第二屆 Super Sonic Revolution",
+        "content": "2021 ...",
+        "links": {
+            "pv": "https://www.youtube.com/watch?v=g8GyX1bkvC4",
+            "vod": "https://www.twitch.tv/collections/qGIm4ZlpixZodQ?filter=collections"
+        }, 
+        "eventList":["images/eventList/2021.png"],
+        "pv_image": "images/PV/2021.png"
     },
     {
         "id":2,
-        "title": "2023屆PV",
-        "content": "",
-        "links": "https://www.youtube.com/watch?v=2dE0guofE54",
-        "image": "images/PV/2023.jpg"
+        "year":"2022",
+        "title": "第三屆 Super Sonic Revolution",
+        "content": "2022 ...",
+        "links": {
+            "pv": "https://www.youtube.com/watch?v=qseDynj_Zi8",
+            "vod": "https://www.twitch.tv/collections/9YF5NcaN_ha_8w?filter=collections"
+        }, 
+        "eventList":["images/eventList/2022.png"],
+        "pv_image": "images/PV/2022.png"
     },
     {
         "id":3,
-        "title": "2024屆PV",
-        "content": "",
-        "links": "https://www.youtube.com/watch?v=HLAXwQO4Cw8",
-        "image": "images/PV/2024.jpg"
+        "year":"2023",
+        "title": "第四屆 Super Sonic Revolution",
+        "content": "2023 ...",
+        "links": {
+            "pv": "https://www.youtube.com/watch?v=2dE0guofE54",
+            "vod": "https://www.twitch.tv/collections/iHfNrsjKbxehIg?filter=collections"
+        },  
+        "eventList":[
+            "images/eventList/2023_1.png",
+            "images/eventList/2023_2.png",
+            "images/eventList/2023_3.png",
+            "images/eventList/2023_4.png",
+            "images/eventList/2023_5.png"
+        ],
+        "pv_image": "images/PV/2023.png"
+    },
+    {
+        "id":4,
+        "year":"2024",
+        "title": "第五屆 Super Sonic Revolution",
+        "content": "2024 ...",
+        "links": {
+            "pv": "https://www.youtube.com/watch?v=HLAXwQO4Cw8",
+            "vod": "https://www.twitch.tv/collections/gjiKnvJP3Bf3Cg?filter=collections"
+        },  
+        "eventList":[
+            "images/eventList/2024_1.png",
+            "images/eventList/2024_2.png",
+            "images/eventList/2024_3.png"
+        ],
+        "pv_image": "images/PV/2024.png"
     }
 ]

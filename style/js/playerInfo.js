@@ -35,14 +35,34 @@ new Vue({
 });
 
 
+import events  from '../../assets/events.json' with  { type: "json"};
+new Vue({
+    el: '#eventInfo',
+    data: {
+        events: events,
+    },
+    methods:{
+    }
+});
 
-// import events  from '../../assets/events.json' with  { type: "json"};
-// new Vue({
-//     el: '#carouselPV',
-//     data: {
-//         events: events
-//     }
-// });
+var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+});
+
+
+
+
+$(function(){
+    var time = new Date();
+    var eventRight = "#v-pills-"+time.getFullYear();
+    var eventLeft = "#v-pills-"+time.getFullYear()+"-tab";
+    $(eventRight).addClass("show");
+    $(eventRight).addClass("active");
+    $(eventLeft).addClass("active");
+});
+
 
 $(function(){
     var len = 60; // 超過60個字以"..."取代

@@ -5,168 +5,257 @@
     <link rel="stylesheet" type="text/css" href="style/css/style.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/css/swiper-bundle.min.css" />
     <script type="module" src="style/js/playerInfo.js"></script>
-    <title>SuperSonicRevolution</title>
+    <title>Super Sonic Revolution</title>
 
 
 
 </head>
 <body>
-    <div class="keyVisual">
-        <!--nav bar-->
-        <nav class="container">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/images/SSR_logo_icon.png" height="80" style="padding:10px 0;">
-                </a>
-                <div class="navbar">
-                    <a class="nav-link" href="#about">活動簡介</a>
-                </div>
-                <div class="navbar">
-                    <a class="nav-link" href="#eventInfo">歷屆活動紀錄</a>
-                </div>
-                <div class="navbar">
-                    <a class="nav-link" href="#playerList">跑者資料庫</a>
-                </div>
-                <div class="navbar">
-                    <a class="nav-link" href="#contactUs">聯繫我們</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <div id="about" >
-        <div class="text_content">
-            <h1>活動簡介</h1></br>
-            <p><span style="font-size: 26px;">「Super Sonic Revolution」</span>(以下簡稱SSR)</p>
-            <p>是由Twitch跟Youtube的眾多遊戲實況主/達人玩家/Vtuber，每年6/1開始，於Twitch舉辦約15~30天不等，進行音速小子系列(索尼克／Sonic／ソニック)各類型遊戲實況的接力活動。</p>
-            <p>在活動之中可以看到強大的技術怪人表演各種飛越穿牆，也有努力不懈堅持到破關的毅力型玩家，以各種方式實況任何的音速小子遊戲！歡迎於6月1日準時收看SSR，或是成為我們的一員，一起在遊戲中突破極限吧！</p>
-            <p>本活動的形式是參考Twitch繁中圈常見的一天一人接力模式，但並不會完全一樣，過去不少Twitch繁中圈的前輩也以此活動模式辦過洛克人(RC/RND)、惡靈古堡、惡魔城、Speedrun(TSS)等等活動，是已經有一段時間的Twitch繁中圈文化。 </p>
-            <p>我們聚集在此的理念各有不同，遊戲粉絲想推廣許多的遊戲，專業玩家想展示自己的訓練成果，也有真愛粉單純的想分享自己在系列作品中獲得的樂趣，在此歡迎各方人士的加入！</p>
-        </div>
-    </div>
-    <div id="eventInfo">
-        <h1>歷屆活動紀錄</h1>
-        <div class="videobox">
-            <iframe
-                width="1024"
-                height="768"
-                src="https://player.twitch.tv/?channel=SuperSonicRevolution&parent=supersonicrevolution.github.io"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-        </div>
-    </div>
-    <!--玩家清單-->
-    <div id="playerList">
-        <h1>跑者資料庫</h1>
-        <div class="row">
-            <div class="card custom-card" v-for="item in player">
-                <div class="row g-0" >
-                    <div class="col-3 avatar popupLink" data-bs-toggle="modal" data-bs-target="#playerModal" @click="getID(item.id)">
-                        <img :src=`assets/${item.avatar}` class="img-fluid rounded-start" alt="Avatar">
+    <div id="main">
+        <!--主視覺圖-->
+        <div class="keyVisual">
+            <!--nav bar-->
+            <nav class="container">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/SSR_logo_icon.png" height="80" style="padding:10px 0;">
+                    </a>
+                    <div class="navbar">
+                        <a class="nav-link" href="#about">活動簡介</a>
                     </div>
-                    <div class="col-9">
-                        <div class="card-body">
-                            <h5 class="card-title">{{item.displayName}}
-                                <a :href="item.links.youtube"><img class="icon red" src="assets/images/community_logo/youtube.svg"></a>
-                                <a :href="item.links.twitch"><img class="icon purple" src="assets/images/community_logo/twitch.svg"></a>
-                            </h5>
-                            <div style="display: flex; width: fit-content;">
-                                <span class="labelTag" v-for="(tag , index) in item.tag" v-if="index < 3">{{tag}}</span>
+                    <div class="navbar">
+                        <a class="nav-link" href="#eventInfo">歷屆活動紀錄</a>
+                    </div>
+                    <div class="navbar">
+                        <a class="nav-link" href="#playerList">跑者資料庫</a>
+                    </div>
+                    <div class="navbar">
+                        <a class="nav-link" href="#contactUs">聯繫我們</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--關於-->
+        <div id="about" >
+            <div class="text_content">
+                <h1>活動簡介</h1></br>
+                <p><span style="font-size: 26px;">「Super Sonic Revolution」</span>(以下簡稱SSR)</p>
+                <p>是由Twitch跟Youtube的眾多遊戲實況主/達人玩家/Vtuber，每年6/1開始，於Twitch舉辦約15~30天不等，進行音速小子系列(索尼克／Sonic／ソニック)各類型遊戲實況的接力活動。</p>
+                <p>在活動之中可以看到強大的技術怪人表演各種飛越穿牆，也有努力不懈堅持到破關的毅力型玩家，以各種方式實況任何的音速小子遊戲！歡迎於6月1日準時收看SSR，或是成為我們的一員，一起在遊戲中突破極限吧！</p>
+                <p>本活動的形式是參考Twitch繁中圈常見的一天一人接力模式，但並不會完全一樣，過去不少Twitch繁中圈的前輩也以此活動模式辦過洛克人(RC/RND)、惡靈古堡、惡魔城、Speedrun(TSS)等等活動，是已經有一段時間的Twitch繁中圈文化。 </p>
+                <p>我們聚集在此的理念各有不同，遊戲粉絲想推廣許多的遊戲，專業玩家想展示自己的訓練成果，也有真愛粉單純的想分享自己在系列作品中獲得的樂趣，在此歡迎各方人士的加入！</p>
+            </div>
+        </div>
+        <!--活動紀錄-->    
+        <div id="eventInfo">
+            <h1>歷屆活動紀錄</h1>
+            <div class="d-flex align-items-start">
+                <!--左側欄項目-->
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link" 
+                            :id="'v-pills-'+event.year+'-tab'" 
+                            data-bs-toggle="pill" 
+                            :data-bs-target="'#v-pills-'+event.year" 
+                            type="button" 
+                            role="tab" 
+                            :aria-controls="'v-pills-'+event.year" 
+                            aria-selected="false"
+                            v-for="(event,index) in events.slice().reverse()"
+                            >
+                            <span style="font-size: 1.2em;">{{event.year}}年</span>
+                    </button>
+                </div>
+                <!--右側欄內容-->
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade" 
+                        :id="'v-pills-'+event.year" 
+                        role="tabpanel" 
+                        :aria-labelledby="'v-pills-'+event.year+'-tab'" 
+                        tabindex="0"
+                        v-for="(event,index) in events.slice().reverse()"
+                    >
+                        <h4>{{event.title}}</h4>
+                        <p>{{event.content}}</p>
+                        <div class="eventList" v-if="event.eventList.length == 1">
+                            <a :href="'assets/'+event.eventList[0]" target="_blank">
+                                <img src="bootstrap/css/bootstrap-icons/calendar2-week-fill.svg" class="icon green"><span >{{event.year}}年節目表</span>
+                            </a>
+                        </div>
+                        <div class="swiper mySwiper"  v-else-if="event.eventList.length > 1">
+                            <img src="bootstrap/css/bootstrap-icons/calendar2-week-fill.svg" class="icon green"><span>{{event.year}}年節目表</span>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" v-for="listImg in event.eventList">
+                                    <a :href="'assets/'+listImg" target="_blank"><img :src="'assets/'+listImg" style="max-width: 480px;"></a>
+                                </div>
                             </div>
-                            <p class="card-text">{{item.introduction}}</p>
-                            <p class="card-text popupLink" 
-                                data-bs-toggle="modal" 
-                                data-bs-target="#playerModal" 
-                                @click="getID(item.id)">更多資訊 >> </p>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="eventList" v-else>
+                            <span >尚未準備好</span>
+                        </div>
+                        <div class="vod">
+                            <a :href="event.links.vod">
+                                <img src="assets/images/community_logo/twitch.svg" class="icon purple" >
+                                <span> {{event.year}}年活動實況紀錄 >></span>
+                            </a>
+                        </div>
+                        <div class="eventImage" v-if="event.links.pv">
+                            <img src="assets/images/community_logo/youtube.svg" class="icon red" style="margin: .2em 0 .2em 1em">
+                            <a :href="event.links.pv" ><span> {{event.year}}年活動PV </span>
+                                <img :src="'assets/'+event.pv_image" class="pv">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- <div class="videobox">
+                <iframe
+                    width="1024"
+                    height="768"
+                    src="https://player.twitch.tv/?channel=SuperSonicRevolution&parent=dsa83171.github.io"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div> -->
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header ">
-                        <h1 class="modal-title fs-5" id="playerModalLabel">{{name}} 的跑者資料</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body row">
-                        <!--left side-->
-                        <div class="col-3" style="border-right: 1px #dee2e6 solid;">
-                            <div>
-                                <img :src="avatar" class="modalAvatar">
-                            </div>
-
-                            <div style="text-align: center;">
-                                <h5 class="card-title">{{displayName}}</h5>
-                                <h5 class="card-title" v-if="name != displayName">({{name}})</h5>
-                            </div>
-                            <div style="display: flex;justify-content: center;">
-                                <a :href="youtube"><img class="modalIcon red" src="assets/images/community_logo/youtube.svg"></a>
-                                <a :href="twitch"><img class="modalIcon purple" src="assets/images/community_logo/twitch.svg"></a>
-                            </div>
-                            <div class="row" >
-                                <span style="margin-top: 5px;" class="labelTag" v-for="tag in tags">{{tag}}</span>
-                            </div>
+        <!--玩家清單-->
+        <div id="playerList">
+            <h1>跑者資料庫</h1>
+            <div class="row">
+                <div class="card custom-card" v-for="item in player">
+                    <div class="row g-0" >
+                        <div class="col-3 avatar popupLink" data-bs-toggle="modal" data-bs-target="#playerModal" @click="getID(item.id)">
+                            <img :src=`assets/${item.avatar}` class="img-fluid rounded-start" alt="Avatar">
                         </div>
-                        <!--right side-->
                         <div class="col-9">
-                            <div class="modalContent">
-                                <h5>介紹:</h5>
-                                <p class="card-text modalList">{{introduction}}</p>
+                            <div class="card-body">
+                                <h5 class="card-title">{{item.displayName}}
+                                    <a :href="item.links.youtube"><img class="icon red" src="assets/images/community_logo/youtube.svg"></a>
+                                    <a :href="item.links.twitch"><img class="icon purple" src="assets/images/community_logo/twitch.svg"></a>
+                                </h5>
+                                <div style="display: flex; width: fit-content;">
+                                    <span class="labelTag" v-for="(tag , index) in item.tag" v-if="index < 3">{{tag}}</span>
+                                </div>
+                                <p class="card-text">{{item.introduction}}</p>
+                                <p class="card-text popupLink" 
+                                    data-bs-toggle="modal" 
+                                    data-bs-target="#playerModal" 
+                                    @click="getID(item.id)">更多資訊 >> </p>
                             </div>
-                            <div class="modalContent">
-                                <h5 v-if="goodAtSonicGames.length>0">音速小子系列擅長遊戲:</h5>
-                                <p class="card-text modalList" v-for="sonicGame in goodAtSonicGames"> {{sonicGame}}</p>
-                            </div>
-
-                            <div class="modalContent">
-                                <h5 v-if="goodAtOtherGames.length>0">其他擅長遊戲:</h5>
-                                <p class="card-text modalList" v-for="otherGame in goodAtOtherGames"> {{otherGame}}</p>
-                            </div>
-
-                            <div class="modalContent">
-                                <h5 v-if="classicVideoSections.length>0">個人經典片段:</h5>
-                                <p class="card-text modalList" v-for="vdoSec in classicVideoSections"><a :href="vdoSec.link">{{vdoSec.name}}</a></p>
-                            </div>
-                            <div class="modalContent">
-                                <h5 v-if="joinedStreamingHistory.length>0">活動紀錄:</h5>
-                                <p class="card-text modalList" v-for="history in joinedStreamingHistory"> <a :href="history.link">{{history.name}}</a></p>
-                            </div>
-                            <div class="modalContent">
-                                <h5 v-if="message">留言:</h5>
-                                <p class="card-text" style="margin-left: 2em;">{{message}}</p>
-                            </div>
-                            
                         </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header ">
+                            <h1 class="modal-title fs-5" id="playerModalLabel">{{name}} 的跑者資料</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <!--left side-->
+                            <div class="col-3" style="border-right: 1px #dee2e6 solid;">
+                                <div>
+                                    <img :src="avatar" class="modalAvatar">
+                                </div>
+
+                                <div style="text-align: center;">
+                                    <h5 class="card-title">{{displayName}}</h5>
+                                    <h5 class="card-title" v-if="name != displayName">({{name}})</h5>
+                                </div>
+                                <div style="display: flex;justify-content: center;">
+                                    <a :href="youtube"><img class="modalIcon red" src="assets/images/community_logo/youtube.svg"></a>
+                                    <a :href="twitch"><img class="modalIcon purple" src="assets/images/community_logo/twitch.svg"></a>
+                                </div>
+                                <div class="row" >
+                                    <span style="margin-top: 5px;" class="labelTag" v-for="tag in tags">{{tag}}</span>
+                                </div>
+                            </div>
+                            <!--right side-->
+                            <div class="col-9">
+                                <div class="modalContent">
+                                    <h5>介紹:</h5>
+                                    <p class="card-text modalList">{{introduction}}</p>
+                                </div>
+                                <div class="modalContent">
+                                    <h5 v-if="goodAtSonicGames.length>0">音速小子系列擅長遊戲:</h5>
+                                    <p class="card-text modalList" v-for="sonicGame in goodAtSonicGames"> {{sonicGame}}</p>
+                                </div>
+
+                                <div class="modalContent">
+                                    <h5 v-if="goodAtOtherGames.length>0">其他擅長遊戲:</h5>
+                                    <p class="card-text modalList" v-for="otherGame in goodAtOtherGames"> {{otherGame}}</p>
+                                </div>
+
+                                <div class="modalContent">
+                                    <h5 v-if="classicVideoSections.length>0">個人經典片段:</h5>
+                                    <p class="card-text modalList" v-for="vdoSec in classicVideoSections"><a :href="vdoSec.link">{{vdoSec.name}}</a></p>
+                                </div>
+                                <div class="modalContent">
+                                    <h5 v-if="joinedStreamingHistory.length>0">活動紀錄:</h5>
+                                    <p class="card-text modalList" v-for="history in joinedStreamingHistory"> <a :href="history.link">{{history.name}}</a></p>
+                                </div>
+                                <div class="modalContent">
+                                    <h5 v-if="message">留言:</h5>
+                                    <p class="card-text" style="margin-left: 2em;">{{message}}</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
+    <div>
+</body>
 
+<footer>
+    <!--聯絡資料-->
+    <div class="row" id="contactUs">
+        <div class="footer_icons">
+            <div class="footer_icon_radius">
+                <a href="https://x.com/SSRSonicTwitch">
+                    <img class="footer_icon_width" style="padding:.2em;" src="./assets/images/community_logo/twitter.svg">
+                </a>
+            </div>
+            <div class="footer_icon_radius">
+                <a href="https://discord.gg/cMV8s8E">
+                    <img class="footer_icon_width" src="./assets/images/community_logo/discord_icon.png">
+                </a>
+            </div>
+            <div class="footer_icon_radius">
+                <a href="https://www.twitch.tv/supersonicrevolution">
+                    <img class="footer_icon_width purple" src="./assets/images/community_logo/twitch.svg">
+                </a>
+            </div>
+            <div class="footer_icon_radius">
+                <a href="https://www.youtube.com/channel/UCLhrZvsNhHkYydyAFlxZw2A">
+                    <img class="footer_icon_width red" src="./assets/images/community_logo/youtube.svg">
+                </a>
+            </div>
+            <div class="footer_icon_radius">
+                <a href="">
+                    <img class="footer_icon_width" src="./assets/images/community_logo/email.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <p style="color:white; font-size: 1.2em;">Super Sonic Revolution</p>
+    </div>
 
     <!-- 引入 Vue.js -->
     <script src="style/js/vue.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="style/js/jquery-latest.min.js"></script>
-
-</body>
-
-<footer>
-    <div id="contactUs">
-        <!-- <a href=""><img src=""></a>
-        <a href=""><img src=""></a>
-        <a href=""><img src=""></a>
-        <a href=""><img src=""></a>
-        <p>這是頁尾</p> -->
-    </div>
+    <script src="style/js/swiper-bundle.js"></script>
 </footer>
 
 </html>
