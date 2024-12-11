@@ -1,4 +1,7 @@
 import player  from '../../assets/player.json' with  { type: "json"};
+import events  from '../../assets/events.json' with  { type: "json"};
+
+//跑者資料庫
 new Vue({
     el: '#playerList',
     data: {
@@ -34,8 +37,7 @@ new Vue({
     }
 });
 
-
-import events  from '../../assets/events.json' with  { type: "json"};
+//歷屆活動紀錄
 new Vue({
     el: '#eventInfo',
     data: {
@@ -45,6 +47,7 @@ new Vue({
     }
 });
 
+//輪播圖的滑軌
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
@@ -62,6 +65,8 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
+
+// 歷屆活動的預設訊息
 $(function(){
     var time = new Date();
     var eventRight = "#v-pills-"+time.getFullYear();
@@ -71,7 +76,7 @@ $(function(){
     $(eventLeft).addClass("active");
 });
 
-
+//跑者資料庫訊息過長刪除
 $(function(){
     var len = 50; // 超過50個字以"..."取代
     $(".card-text").each(function(i){

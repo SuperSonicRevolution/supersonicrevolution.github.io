@@ -67,7 +67,8 @@ footer{
 }
 
 .custom-card{
-  max-width: 100% !important;
+  max-width: 90% !important;
+  left: 5%;
   padding: 0 !important;
   margin-bottom: 5px;
 }
@@ -198,6 +199,20 @@ footer{
   margin-bottom: .5em;
 }
 
+.modal-open{
+  padding-right: 0px !important;
+}
+
+.modal-backdrop{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+#playerModal{
+  padding-right: 0px !important;
+}
+
 .nav{
   padding-top:5px;
 }
@@ -233,6 +248,8 @@ footer{
   width: fit-content;
   color: #77777c;
 }
+
+
 
 .pv{
   display: flex;
@@ -364,6 +381,7 @@ footer{
 
   .custom-card{
     max-width: 49% !important;
+    left:0;
     padding-left: 0 !important;
     margin-left: 5px;
   }
