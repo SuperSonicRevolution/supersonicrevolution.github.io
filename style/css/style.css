@@ -261,6 +261,26 @@ footer{
   background-color: #fff;
   box-shadow: #4d4d4d 1px 1px 3px;
 }
+.swiper-button-next{
+  text-shadow: -1px -1px 0 #ffffff,
+  1px -1px 0 #ffffff,
+  -1px 1px 0 #ffffff,
+  1px 1px 0 #ffffff;
+  color:#000 !important;
+}
+
+.swiper-button-prev{
+  text-shadow: -1px -1px 0 #ffffff,
+  1px -1px 0 #ffffff,
+  -1px 1px 0 #ffffff,
+  1px 1px 0 #ffffff;
+  color:#000 !important;
+}
+
+.swiper-pagination-bullet-active{
+  border: #000 2px solid;
+  background: #fff !important;
+}
 
 .swiper-slide {
   text-align: center;
@@ -344,7 +364,6 @@ footer{
 
   .custom-card{
     max-width: 49% !important;
-    max-height: 300px;
     padding-left: 0 !important;
     margin-left: 5px;
   }
@@ -385,7 +404,6 @@ footer{
 
   .custom-card{
     max-width: 32% !important;
-    max-height: 250px;
     padding-left: 0 !important;
     margin-left: 5px;
     left: 1.5%;

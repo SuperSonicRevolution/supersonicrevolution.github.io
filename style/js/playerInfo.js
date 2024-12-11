@@ -46,13 +46,21 @@ new Vue({
 });
 
 var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination",
+      clickable: true,
     },
-});
-
-
-
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 
 $(function(){
     var time = new Date();
@@ -65,7 +73,7 @@ $(function(){
 
 
 $(function(){
-    var len = 60; // 超過60個字以"..."取代
+    var len = 50; // 超過50個字以"..."取代
     $(".card-text").each(function(i){
         if($(this).text().length>len){
             $(this).attr("title",$(this).text());
