@@ -279,25 +279,35 @@ footer{
   box-shadow: #4d4d4d 1px 1px 3px;
 }
 .swiper-button-next{
-  text-shadow: -1px -1px 0 #ffffff,
-  1px -1px 0 #ffffff,
-  -1px 1px 0 #ffffff,
-  1px 1px 0 #ffffff;
-  color:#000 !important;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  right:0 !important;
+  padding: 6% 3%;
+  border-radius: .5em 0 0 .5em;
+  color:#fff !important;
+  background-color: #ffffffc0;
 }
 
 .swiper-button-prev{
-  text-shadow: -1px -1px 0 #ffffff,
-  1px -1px 0 #ffffff,
-  -1px 1px 0 #ffffff,
-  1px 1px 0 #ffffff;
-  color:#000 !important;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  left:0 !important;
+  padding: 6% 3%;
+  border-radius: 0 .5em .5em 0;
+  color:#fff !important;
+  background-color: #ffffffc0;
 }
 
 .swiper-pagination-bullet-active{
   border: #000 2px solid;
   background: #fff !important;
+  
 }
+
 
 .swiper-slide {
   text-align: center;
