@@ -69,8 +69,9 @@ var swiper = new Swiper(".mySwiper", {
 // 歷屆活動的預設訊息
 $(function(){
     var time = new Date();
-    var eventRight = "#v-pills-"+time.getFullYear();
-    var eventLeft = "#v-pills-"+time.getFullYear()+"-tab";
+    var preYear = events.slice().reverse();
+    var eventRight = "#v-pills-"+preYear[0].year;
+    var eventLeft = "#v-pills-"+preYear[0].year+"-tab";
     $(eventRight).addClass("show");
     $(eventRight).addClass("active");
     $(eventLeft).addClass("active");
