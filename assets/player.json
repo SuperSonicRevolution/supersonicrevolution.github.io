@@ -3,7 +3,7 @@
         "id":0,
         "name": "Append",
         "displayName": "Append",
-        "avatar": "images/Avatar001.png",
+        "avatar": "images/Avatar_Append.png",
         "links": {
             "youtube": "https://www.youtube.com/channel/UCgjRD4CezViF9yvasbTnvow",
             "twitch": "https://www.twitch.tv/append"
@@ -15,15 +15,23 @@
         "joinedStreamingHistory": [
             {
                 "name": "2020_D09_Sonic the Hedgehog 3 & Knuckles",
-                "link": "https://www.twitch.tv/videos/645813705?collection=28K47G4AFhZiHQ"
+                "link": "https://www.youtube.com/watch?v=ZeaPZIJb2nI"
             },
             {
                 "name": "2021_D01_Sonic the Hedgehog 3 & Knuckles",
-                "link": "https://www.twitch.tv/videos/1042344609?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=sn1NEr2QflE"
             },
             {
                 "name": "2022_D12_Sonic the Hedgehog 3 & Knuckles",
-                "link": "https://www.twitch.tv/videos/1502285231?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=Mb_UiHuwDTY"
+            },
+            {
+                "name": "2023_D01_Sonic 3 & Knuckles - Append (鴉片)",
+                "link": "https://www.youtube.com/watch?v=MvLRfVC08H8"
+            },
+            {
+                "name": "2025_D01_Sonic the Hedgehog 3 & Knuckles - Append (鴉片)",
+                "link": "https://www.youtube.com/watch?v=k2FTx6S0y6A"
             }
         ],
         "classicVideoSections": [
@@ -38,10 +46,10 @@
         "id":1,
         "name": "SonicBoss",
         "displayName": "SonicBoss46",
-        "avatar": "images/Avatar002.png",
+        "avatar": "images/Avatar_SonicBoss46.png",
         "links": {
-            "youtube": "https://www.youtube.com/channel/UCgjRD4CezViF9yvasbTnvow",
-            "twitch": "https://www.twitch.tv/append"
+            "youtube": "https://www.youtube.com/channel/@sonicboss4633",
+            "twitch": "https://www.twitch.tv/SonicBoss4633"
         },
         "tag": ["休閒玩家",
                 "粉絲型玩家",
@@ -59,51 +67,51 @@
         "joinedStreamingHistory": [
             {
                 "name": "2020_D14_Sonic Adventure DX: Director's Cut",
-                "link": "https://www.twitch.tv/videos/650688019?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=-pfAqEiT4jA&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=14&pp=iAQB"
             },
             {
                 "name": "2020_D20_Sonic Heroes",
-                "link": "https://www.twitch.tv/videos/656462284?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=jAWsvWmBs60&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=20&pp=iAQB"
             },
             {
                 "name": "2021_D05_Shadow the hedgehog Part 1",
-                "link": "https://www.twitch.tv/videos/1047796487?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=2GmwlEldDl0&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=5&pp=iAQB"
             },
             {
                 "name": "2021_D06_Shadow the hedgehog Part 2",
-                "link": "https://www.twitch.tv/videos/1047797919?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=V7EGd3w0sVY&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=6&pp=iAQB"
             },
             {
                 "name": "2021_D12_Sonic Adventure DX: Director's Cut",
-                "link": "https://www.twitch.tv/videos/1054029925?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=PF360NnPHLk&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=12&pp=iAQB"
             },
             {
                 "name": "2021_D13_Sonic Unleashed",
-                "link": "https://www.twitch.tv/videos/1055540640?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=X0VIpDlsfy8&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=13&pp=iAQB"
             },
             {
                 "name": "2021_D18_Sonic Adventure 2 Battle",
-                "link": "https://www.twitch.tv/videos/1060970785?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=1nJXU-d1ZHk&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=18&pp=iAQB0gcJCU0KAYcqIYzv"
             },
             {
                 "name": "2021_D30_Sonic R / Sonic Omens",
-                "link": "https://www.twitch.tv/videos/1073466017?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=ck7HxGX3wc8&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=31&pp=iAQB"
             },
             {
                 "name": "2022_D01_Sonic Adventure DX: Director's Cut",
-                "link": "https://www.twitch.tv/videos/1314932837?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=NxvuvVkQ4rY&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=1&pp=iAQB"
             },
             {
-                "name": "2022_D02_Sonic Unleashed",
-                "link": "https://www.twitch.tv/videos/1494234481?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "name": "2022_D03_Sonic Unleashed",
+                "link": "https://www.youtube.com/watch?v=OaUPQVr_7f8&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=3&pp=iAQB"
             },
             {
                 "name": "2022_D08_Sonic Adventure 2 Battle Hero+Last Story",
-                "link": "https://www.twitch.tv/videos/1502254724?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=v0RthqXzClk&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=8&pp=iAQB"
             },
             {
                 "name": "2022_D16_Sonic P-06 v4.6",
-                "link": "https://www.twitch.tv/videos/1508820615?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=VpNisarEWIc&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=16&pp=iAQB0gcJCU0KAYcqIYzv"
             }
         ],
         "classicVideoSections": [
@@ -118,7 +126,7 @@
         "id":2,
         "name": "AllanCat",
         "displayName": "AC",
-        "avatar": "images/Avatar003.png",
+        "avatar": "images/Avatar_AllanCat.png",
         "links": {
             "youtube": "https://www.youtube.com/channel/UCyX4NV-UUqU4RWeyHJbweQg",
             "twitch": "https://www.twitch.tv/allancat"
@@ -139,15 +147,23 @@
         "joinedStreamingHistory": [
             {
                 "name": "2020_D12_Sonic Adventure 2 Battle Hero Story",
-                "link": "https://www.twitch.tv/videos/648726856?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=sPFnng1Qyfk&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=12&pp=iAQB"
             },
             {
                 "name": "2021_D24_Sonic CD",
-                "link": "https://www.twitch.tv/videos/1067965082?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=6LtIg2yl7h8&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=24&pp=iAQB"
             },
             {
                 "name": "2022_D07_Sonic Adventure 2 Battle Dark Story",
-                "link": "https://www.twitch.tv/videos/1502251640?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=frsYefjlCbU&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=7&pp=iAQB"
+            },
+            {
+                "name": "2023_D13_Sonic Adventure 2 Battle - AllanCat(AC)",
+                "link": "https://www.youtube.com/watch?v=UwbrxXi5uJQ&list=PLZZyvKaqNjiD3RVJyMqiI5mQlNDV6uvmL&index=14&pp=iAQB"
+            },
+            {
+                "name": "2024_D02_夏特接力 Sonic Adventure 2: Battle - AllanCat",
+                "link": "https://www.youtube.com/watch?v=22okatxBpBM&list=PLZZyvKaqNjiBNoRJLl-Ve0IabgO-ET8V2&index=2&pp=iAQB"
             }
         ],
         "classicVideoSections": [
@@ -162,9 +178,9 @@
         "id":3,
         "name": "Ds83171",
         "displayName": "阿痕",
-        "avatar": "images/Avatar004.png",
+        "avatar": "images/Avatar_Ds83171.png",
         "links": {
-            "youtube": "https://www.youtube.com/channel/UCysohp1JjuJ3OjqKNlJuYJQ",
+            "youtube": "https://www.youtube.com/@ds83171",
             "twitch": "https://www.twitch.tv/ds83171"
         },
         "tag": ["休閒玩家"],
@@ -181,11 +197,19 @@
         "joinedStreamingHistory": [
             {
                 "name": "2020_D01_Sonic Mania",
-                "link": "https://www.twitch.tv/videos/638219008?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=fbwF2cCpC7k"
             },
             {
-                "name": "2021_D21_Balan Wonderworld",
-                "link": "https://www.twitch.tv/videos/1062180399?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "name": "2021_D20_Balan Wonderworld",
+                "link": "https://www.youtube.com/watch?v=qajVIbsgnqo"
+            },
+            {
+                "name": "Super Sonic Revolution 2024 第八天 Sonic Origins - Ds83171 (阿痕)",
+                "link": "https://youtu.be/T7qPpv1eZPE"
+            },
+            {
+                "name": "Super Sonic Revolution 2025 第七天 Sonic Superstars - Ds83171(阿痕)",
+                "link": "https://www.youtube.com/watch?v=DFEv0ozb8rc"
             }
         ],
         "classicVideoSections": [
@@ -212,7 +236,7 @@
         "id":4,
         "name": "Hunman360",
         "displayName": "Hunman360",
-        "avatar": "images/Avatar005.png",
+        "avatar": "images/Avatar_Hunman360.png",
         "links": {
             "youtube": "https://www.youtube.com/@Hunman360",
             "twitch": "https://www.twitch.tv/hunman360"
@@ -232,43 +256,43 @@
         "joinedStreamingHistory": [
             {
                 "name": "2020_D02_Game Gear",
-                "link": "https://www.twitch.tv/videos/639208031?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=ZaPfny1Ze7w&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=2&pp=iAQB"
             },
             {
                 "name": "2020_D13_Sonic Robo Blast 2",
-                "link": "https://www.twitch.tv/videos/649807724?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=dTM5NMWzozY&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=13&pp=iAQB"
             },
             {
                 "name": "2020_D17_Spark the Electric Jester",
-                "link": "https://www.twitch.tv/videos/654512615?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=42i9m1vVK2s&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=17&pp=iAQB0gcJCU0KAYcqIYzv"
             },
             {
                 "name": "2021_D16_Android Sonic the Hedgehog 1&2(影片有大量消音狀況)",
-                "link": "https://www.twitch.tv/videos/1058057237?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=7cuT0XmsXKk&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=16&pp=iAQB"
             },
             {
-                "name": "2021_D18_Sonic 3D Blast",
-                "link": "https://www.twitch.tv/videos/1059043116?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "name": "2021_D17_Sonic 3D: Director's Cut - By Hunman360",
+                "link": "https://www.youtube.com/watch?v=L7KkfcicKUI&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=17&pp=iAQB"
             },
             {
                 "name": "2021_D25_Sonic Robo Blast 2",
-                "link": "https://www.twitch.tv/videos/1067967883?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=jheDpZkO85g&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=25&pp=iAQB"
             },
             {
                 "name": "2021_D26_Sonic Robo Blast 2",
-                "link": "https://www.twitch.tv/videos/1070209657?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=WBl0aW6aIkk&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=26&pp=iAQB"
             },
             {
                 "name": "2022_D09_Knuckles' Chaotix",
-                "link": "https://www.twitch.tv/videos/1502260937?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=GsxJuM1tTcU&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=9&pp=iAQB"
             },
             {
                 "name": "2022_D18_Sonic Robo Blast 2",
-                "link": "https://www.twitch.tv/videos/1508850435?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=6Uoi9dXAZ-M&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=19&pp=iAQB"
             },
             {
-                "name": "2022_D18_Sonic Origins / Sonic CD / Sonic Robo Blast 2",
-                "link": "https://www.twitch.tv/videos/1517345127?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "name": "2022_D28_Sonic Origins / Sonic CD / Sonic Robo Blast 2",
+                "link": "https://www.youtube.com/watch?v=BBiT-CVsT_w&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=29&pp=iAQB"
             }
         ],
         "classicVideoSections": [],
@@ -278,7 +302,7 @@
         "id":5,
         "name": "uc520aaa",
         "displayName": "火神",
-        "avatar": "images/Avatar006.png",
+        "avatar": "images/Avatar_uc520aaa.png",
         "links": {
             "youtube": "https://www.youtube.com/@uc520aaa",
             "twitch": "https://www.twitch.tv/uc520aaa"
@@ -300,19 +324,19 @@
         "joinedStreamingHistory": [
             {
                 "name": "2021_D04_Sonic Adventure DX: Director's Cut",
-                "link": "https://www.twitch.tv/videos/1045602113?collection=qGIm4ZlpixZodQ"
+                "link": "https://www.youtube.com/watch?v=hOUuaTLLJlU&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=4&pp=iAQB"
             },
             {
                 "name": "2021_D21_NiGHTS into Dreams...",
-                "link": "https://www.twitch.tv/videos/1063578352?collection=qGIm4ZlpixZodQ"
+                "link": "https://www.youtube.com/watch?v=9qIQPmzsQjA&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=21&pp=iAQB"
             },
             {
                 "name": "2022_D25_Sonic and the Secret Rings - Lysandre_20(フラァダリ) 實況講解 : uc520aaa(火神)",
-                "link": "https://www.twitch.tv/videos/1517337134?collection=9YF5NcaN_ha_8w"
+                "link": "https://www.youtube.com/watch?v=0pVNLPYh0kk&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=26&pp=iAQB"
             },
             {
                 "name": "2022_D27_Team Sonic Racing",
-                "link": "https://www.twitch.tv/videos/1517338063?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=PVuFuFK2KaU&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=28&pp=iAQB"
             }
         ],
         "classicVideoSections": [],
@@ -321,9 +345,9 @@
     {   "id":6,
         "name": "grega12076318",
         "displayName": "グレイガ",
-        "avatar": "images/Avatar007.png",
+        "avatar": "images/Avatar_grega12076318.png",
         "links": {
-            "youtube": "https://www.youtube.com/channel/UCE3qUYCHUt64jA6IlAyq56Q",
+            "youtube": "https://www.youtube.com/@grega_game",
             "twitch": "https://www.twitch.tv/grega12076318"
         },
         "tag": ["1月舊資料",
@@ -343,23 +367,23 @@
         "joinedStreamingHistory": [
             {
                 "name": "2020_D10_Sonic 2006 Sonic & Shadow Story / Sonic Generation 蒼藍冒險",
-                "link": "https://www.twitch.tv/videos/646835209?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=38OnztJBeqs&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=10&pp=iAQB0gcJCU0KAYcqIYzv"
             },
             {
                 "name": "2020_D15_Sonic 2006 Silver & Last Story / Sonic Mania Plus Encore Mode",
-                "link": "https://www.twitch.tv/videos/651522832?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=MSO3g93SJYE&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=15&pp=iAQB"
             },
             {
                 "name": "2021_D02_Sonic Mania Plus Encore Mode",
-                "link": "https://www.twitch.tv/videos/1043299344?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=3cYhrYCaFqE&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=2&pp=iAQB"
             },
             {
                 "name": "2022_D05_Sonic 1/2/3KS/3KK 隨機切換",
-                "link": "https://www.twitch.tv/videos/1496301869?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=ntiqQUHBc3g&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=5&pp=iAQB"
             },
             {
                 "name": "2022_D23_Sonic Origins / Sonic Mania Plus Encore Mode",
-                "link": "https://www.twitch.tv/videos/1517334796?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=X0xHP_rDW3A&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=24&pp=iAQB0gcJCU0KAYcqIYzv"
             }
         ],
         "classicVideoSections": [],
@@ -369,7 +393,7 @@
         "id":7,
         "name": "Zexas",
         "displayName": "Zexas",
-        "avatar": "images/Avatar008.png",
+        "avatar": "images/Avatar_Zexas.png",
         "links": {
             "youtube": "https://www.youtube.com/c/zexasowen",
             "twitch": "https://www.twitch.tv/zexas"
@@ -391,23 +415,23 @@
         "joinedStreamingHistory": [
             {
                 "name": "2020_D03_Sonic Unleashed Part 1",
-                "link": "https://www.twitch.tv/videos/640180850?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=4Jt8DRkUeNQ&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=3&pp=iAQB"
             },
             {
                 "name": "2020_D04_Sonic Unleashed Part 2",
-                "link": "https://www.twitch.tv/videos/641039626?collection=28K47G4AFhZiHQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=wL9vHyyMuq4&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=4&pp=iAQB"
             },
             {
                 "name": "2021_D10_Sonic Heroes Part 1",
-                "link": "https://www.twitch.tv/videos/1051890910?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=qqfpGdv_oUE&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=10&pp=iAQB"
             },
             {
                 "name": "2021_D11_Sonic Heroes Part 2",
-                "link": "https://www.twitch.tv/videos/1052902064?collection=qGIm4ZlpixZodQ&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=NkIp4tXTtEU&list=PLZZyvKaqNjiCzwJTKrKqPIBd0ZcJUQz1n&index=11&pp=iAQB"
             },
             {
                 "name": "2022_D29_Sonic the hedgehog 4 EP I&II",
-                "link": "https://www.twitch.tv/videos/1521949715?collection=9YF5NcaN_ha_8w&filter=collections&sort=time"
+                "link": "https://www.youtube.com/watch?v=2h1x981hqt0&list=PLZZyvKaqNjiAOkdw2dJeiFUtW-dbkmhsB&index=30&pp=iAQB"
             }
         ],
         "classicVideoSections": [],
@@ -417,7 +441,7 @@
         "id":8,
         "name": "Ten_wang",
         "displayName": "TG",
-        "avatar": "images/Avatar009.png",
+        "avatar": "images/Avatar_Ten_wang.png",
         "links": {
             "youtube": "https://www.youtube.com/c/Tenwong_Games",
             "twitch": "https://www.twitch.tv/ten_wong"
@@ -433,7 +457,7 @@
         "joinedStreamingHistory": [
             {
                 "name": "2020_D06_Freedom Planet",
-                "link": "https://www.twitch.tv/videos/643036715?collection=28K47G4AFhZiHQ"
+                "link": "https://www.youtube.com/watch?v=947KT0PCfPg&list=PLZZyvKaqNjiByMTvdMcvhm2OGNgsOUWBx&index=6&pp=iAQB"
             }
         ],
         "classicVideoSections": [],
@@ -443,7 +467,7 @@
         "id":9,
         "name": "finntv6236",
         "displayName": "高芬少年阿芬",
-        "avatar": "images/Avatar010.png",
+        "avatar": "images/Avatar_finntv6236.png",
         "links": {
             "youtube": "https://www.youtube.com/@hiscoreboyFinn",
             "twitch": "https://www.twitch.tv/finntv6236"
@@ -471,7 +495,7 @@
         "id":10,
         "name": "yakumo_ken",
         "displayName": "八雲劍",
-        "avatar": "images/Avatar011.png",
+        "avatar": "images/Avatar_yakumo_ken.png",
         "links": {
             "youtube": "https://www.youtube.com/channel/UClA5YX0D1ejpeNh-oFcrXnw"
         },

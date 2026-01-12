@@ -68,5 +68,33 @@
             "images/eventList/2024_3.png"
         ],
         "pv_image": "images/PV/2024.png"
+    },
+    {
+        "id":5,
+        "year":"2025",
+        "title": "第六屆 Super Sonic Revolution",
+        "content": "2025年的活動紀錄",
+        "links": {
+            "pv": "https://www.youtube.com/watch?v=qeHmeooG-ZU",
+            "vod": "https://www.youtube.com/playlist?list=PLZZyvKaqNjiBNoRJLl-Ve0IabgO-ET8V2"
+        },  
+        "eventList":[
+            "images/eventList/SSR2025week_1.jpg",
+            "images/eventList/SSR2025week_2.jpg",
+            "images/eventList/SSR2025week_3.jpg",
+            "images/eventList/SSR2025week_4.jpg"
+        ],
+        "pv_image": "images/PV/pv2025.jpg"
+    },
+    {
+        "id":6,
+        "year":"2026",
+        "title": "第七屆 Super Sonic Revolution",
+        "content": "COMMING SOON",
+        "links": {
+        },  
+        "eventList":[
+        ],
+        "pv_image": ""
     }
 ]

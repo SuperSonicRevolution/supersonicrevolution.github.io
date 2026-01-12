@@ -84,7 +84,7 @@
                     >
                         <h4>{{event.title}}</h4>
                         <p>{{event.content}}</p>
-                        <div class="vod">
+                        <div class="vod" v-if="event.links.vod">
                             <a :href="event.links.vod">
                                 <img src="assets/images/community_logo/youtube.svg" class="icon red" >
                                 <span> {{event.year}}年活動實況紀錄 >></span>
